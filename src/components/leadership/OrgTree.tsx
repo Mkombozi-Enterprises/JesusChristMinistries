@@ -128,11 +128,26 @@ function CouplePortrait({
   };
 
   if (leader.photoURL && !leader.spousePhotoURL) {
+    const isJointSinglePhoto =
+      leader.id !== "bishop" &&
+      (Boolean(leader.spouseName) ||
+        Boolean(
+          leader.displayName?.includes(" and ") ||
+            leader.displayName?.includes("&") ||
+            leader.displayName?.includes("Overseers"),
+        ) ||
+        leader.regionId === "meru" ||
+        leader.regionId === "north-rift");
+
+    const frameClass = isJointSinglePhoto
+      ? coupleFrames[size]
+      : singleFrames[size];
+
     return (
       <div
         className={cn(
           "mx-auto overflow-hidden rounded-xl border-2 border-gold/50 bg-brand-muted shadow-sm",
-          singleFrames[size],
+          frameClass,
         )}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
