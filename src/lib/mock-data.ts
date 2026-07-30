@@ -437,8 +437,8 @@ export function getPastorsWelfare(): Leader[] {
 export const SERMONS: Sermon[] = [
   {
     id: "sermon-1",
-    title: "Walking in the Power of the Holy Spirit",
-    youtubeId: "_B8gJ4_KBSE", // Jim Cymbala — Holy Spirit power sermon
+    title: "Walking in the Holy Spirit / Trusting God",
+    youtubeId: "KA5Ujd5gKh4", // Jim Cymbala — Walking in the Holy Spirit
     speaker: "Bishop Edward Musamusi",
     date: "2026-07-20",
     series: "Spirit-Filled Living",
@@ -446,8 +446,8 @@ export const SERMONS: Sermon[] = [
   },
   {
     id: "sermon-2",
-    title: "Faith That Moves Mountains",
-    youtubeId: "5I3YHonvOfs", // Charles Stanley — Faith That Moves Mountains
+    title: "Walking in the Holy Spirit",
+    youtubeId: "r-9L2-aVR4I", // Charles Stanley — Walking in the Holy Spirit (In Touch Ministries)
     speaker: "Bishop Edward Musamusi",
     date: "2026-07-13",
     series: "Foundations of Faith",
@@ -455,8 +455,8 @@ export const SERMONS: Sermon[] = [
   },
   {
     id: "sermon-3",
-    title: "The Fire of Pentecost",
-    youtubeId: "3ETUoB8E5dA", // David Wilkerson — Fire of Pentecost
+    title: "Christless Pentecost",
+    youtubeId: "qgL1feavkwE", // David Wilkerson — Christless Pentecost (prophetic classic)
     speaker: "Bishop Edward Musamusi",
     date: "2026-07-06",
     series: "Spirit-Filled Living",

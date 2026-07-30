@@ -112,10 +112,19 @@ function CouplePortrait({
   leader: Leader;
   size?: "hero" | "apex" | "node";
 }) {
-  const frames = {
-    hero: "w-[72%] max-w-[16rem] h-40 xs:h-44 sm:h-52",
-    apex: "w-[72%] max-w-[14rem] h-36 sm:h-44 md:h-48",
-    node: "w-[72%] max-w-none h-28 sm:h-32 md:h-36",
+  // Single portrait: tall container, face anchored to top
+  const singleFrames = {
+    hero: "w-[72%] max-w-[16rem] aspect-[3/4]",
+    apex: "w-[72%] max-w-[14rem] aspect-[3/4]",
+    node: "w-[80%] max-w-none aspect-[3/4]",
+  };
+
+  // Couple side-by-side: the container is landscape (3:2) so each
+  // grid-cols-2 cell is effectively portrait (3:4) — no distortion.
+  const coupleFrames = {
+    hero: "w-[90%] max-w-[20rem] aspect-[3/2]",
+    apex: "w-[90%] max-w-[18rem] aspect-[3/2]",
+    node: "w-[92%] max-w-none aspect-[3/2]",
   };
 
   if (leader.photoURL && !leader.spousePhotoURL) {
@@ -123,7 +132,7 @@ function CouplePortrait({
       <div
         className={cn(
           "mx-auto overflow-hidden rounded-xl border-2 border-gold/50 bg-brand-muted shadow-sm",
-          frames[size],
+          singleFrames[size],
         )}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -142,7 +151,7 @@ function CouplePortrait({
       <div
         className={cn(
           "mx-auto grid grid-cols-2 gap-0.5 overflow-hidden rounded-xl border-2 border-gold/40 bg-brand-muted p-0.5 shadow-sm sm:gap-1 sm:p-1",
-          frames[size],
+          coupleFrames[size],
         )}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
