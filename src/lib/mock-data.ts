@@ -84,6 +84,8 @@ export const NORTH_RIFT_PHOTO =
   "/images/leadership/north-rift-overseers.jpg";
 export const RONALD_CHIWAI_PHOTO =
   "/images/leadership/ronald-ngala-chiwai.jpg";
+export const RONALD_CHIWAI_SPOUSE_PHOTO =
+  "/images/leadership/ronald-ngala-chiwai-spouse.jpg";
 export const MERU_OVERSEERS_PHOTO =
   "/images/leadership/meru-rotich-stellar.jpg";
 
@@ -205,6 +207,9 @@ export const NATIONAL_LEADERSHIP: Leader[] = [
     level: 1,
     sortOrder: 1,
     photoURL: RONALD_CHIWAI_PHOTO,
+    spousePhotoURL: RONALD_CHIWAI_SPOUSE_PHOTO,
+    spouseName: "Mrs. Chiwai",
+    displayName: "Ronald Ngala Chiwai and Mrs. Chiwai",
     bio: "Ronald Ngala Chiwai serves as Ministry Coordinator for Jesus Christ Ministries, aligning national programmes and departments under the Bishop’s vision.",
   },
   {
