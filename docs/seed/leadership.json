@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bishop-edward",
+    "name": "Bishop Edward Musamusi",
+    "title": "Bishop",
+    "spouseName": "Edith Fedha Musamusi",
+    "photoURL": "/images/leadership/bishop-edward-edith-musamusi.jpg",
+    "level": 1,
+    "bio": "Bishop Edward Musamusi leads Jesus Christ Ministries with a passion for soul-winning, Spirit-filled worship, and raising strong local churches across Kenya. Together with his wife Edith Fedha Musamusi, they shepherd the ministry under the guidance of the Holy Spirit."
+  },
+  {
+    "id": "overseer-kilifi",
+    "name": "Rev. Chai Festus",
+    "title": "Assistant Bishop",
+    "spouseName": "Mrs. Chai",
+    "photoURL": "/images/leadership/rev-chai-festus.jpg",
+    "spousePhotoURL": "/images/leadership/rev-chai-spouse.jpg",
+    "regionId": "kilifi",
+    "level": 2,
+    "bio": "Rev. Chai Festus serves as Assistant Bishop and Regional Overseer for Kilifi Region, shepherding branch pastors and advancing Spirit-filled ministry along the coast together with his wife."
+  },
+  {
+    "id": "overseer-nairobi",
+    "name": "Overseer [To Confirm]",
+    "title": "Overseer",
+    "regionId": "nairobi",
+    "level": 2,
+    "bio": "Regional Overseer for Nairobi Region, overseeing branch pastors and ministry growth."
+  },
+  {
+    "id": "overseer-western",
+    "name": "Overseer [To Confirm]",
+    "title": "Overseer",
+    "regionId": "western",
+    "level": 2,
+    "bio": "Regional Overseer for Western Region, overseeing branch pastors and ministry growth."
+  },
+  {
+    "id": "overseer-north-rift",
+    "name": "Regional Overseers [To Confirm]",
+    "displayName": "North Rift Regional Overseers",
+    "title": "Overseer",
+    "photoURL": "/images/leadership/north-rift-overseers.jpg",
+    "regionId": "north-rift",
+    "level": 2,
+    "band": "regional_overseer",
+    "bio": "Regional Overseers for North Rift Region, overseeing branch pastors and ministry growth. Names to be confirmed."
+  },
+  {
+    "id": "overseer-kilgoris",
+    "name": "Overseer [To Confirm]",
+    "title": "Overseer",
+    "regionId": "kilgoris",
+    "level": 2,
+    "bio": "Regional Overseer for Kilgoris Region, overseeing branch pastors and ministry growth."
+  },
+  {
+    "id": "overseer-meru",
+    "name": "Rev. Rotich",
+    "displayName": "Rev. Rotich and Mrs. Stellar Kamama",
+    "title": "Overseer",
+    "spouseName": "Mrs. Stellar Kamama",
+    "photoURL": "/images/leadership/meru-rotich-stellar.jpg",
+    "regionId": "meru",
+    "level": 2,
+    "band": "regional_overseer",
+    "bio": "Rev. Rotich and Mrs. Stellar Kamama serve as Regional Overseers for Meru Region."
+  },
+  {
+    "id": "overseer-malindi",
+    "name": "Overseer [To Confirm]",
+    "title": "Overseer",
+    "regionId": "malindi",
+    "level": 2,
+    "bio": "Regional Overseer for Malindi Region, overseeing branch pastors and ministry growth."
+  }
+]

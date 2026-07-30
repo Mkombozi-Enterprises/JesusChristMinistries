@@ -1,0 +1,48 @@
+[
+  {
+    "id": "nairobi",
+    "name": "Nairobi",
+    "overseerName": "Overseer [To Confirm]",
+    "description": "Serving the capital and surrounding counties with vibrant Spirit-filled worship."
+  },
+  {
+    "id": "western",
+    "name": "Western",
+    "overseerName": "Overseer [To Confirm]",
+    "description": "Reaching communities across Western Kenya with the Gospel of Jesus Christ."
+  },
+  {
+    "id": "north-rift",
+    "name": "North Rift",
+    "overseerName": "Regional Overseers [To Confirm]",
+    "overseerPhotoURL": "/images/leadership/north-rift-overseers.jpg",
+    "description": "A growing network of branches across the North Rift region."
+  },
+  {
+    "id": "kilgoris",
+    "name": "Kilgoris",
+    "overseerName": "Overseer [To Confirm]",
+    "description": "Ministry presence in Kilgoris and neighboring communities."
+  },
+  {
+    "id": "meru",
+    "name": "Meru",
+    "overseerName": "Rev. Rotich and Mrs. Stellar Kamama",
+    "overseerPhotoURL": "/images/leadership/meru-rotich-stellar.jpg",
+    "description": "Bringing hope and the Word of God to Meru and beyond, led by Rev. Rotich and Mrs. Stellar Kamama."
+  },
+  {
+    "id": "kilifi",
+    "name": "Kilifi",
+    "overseerName": "Rev. Chai Festus",
+    "overseerPhotoURL": "/images/leadership/rev-chai-festus.jpg",
+    "overseerSpousePhotoURL": "/images/leadership/rev-chai-spouse.jpg",
+    "description": "Coastal region ministry rooted in Pentecostal faith, led by Assistant Bishop Rev. Chai Festus."
+  },
+  {
+    "id": "malindi",
+    "name": "Malindi",
+    "overseerName": "Overseer [To Confirm]",
+    "description": "Serving Malindi and coastal communities with love and power."
+  }
+]

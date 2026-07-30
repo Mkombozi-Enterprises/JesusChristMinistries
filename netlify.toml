@@ -1,0 +1,18 @@
+# Netlify configuration for Jesus Christ Ministries (Next.js 16 / App Router)
+# https://docs.netlify.com/integrations/frameworks/next-js/overview/
+
+[build]
+  command   = "npm run build"
+  publish   = ".next"
+
+# Next.js runtime — handles SSR, API routes, image optimisation, etc.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Redirect bare HTTP to HTTPS (Netlify enforces this by default on custom domains,
+# but being explicit is good practice)
+[[redirects]]
+  from   = "http://jesuchristministries.netlify.app/*"
+  to     = "https://jesuschristministries.netlify.app/:splat"
+  status = 301
+  force  = true

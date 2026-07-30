@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand palette — white dominant, royal purple primary, light blue secondary, gold accents */
+  --color-white: #ffffff;
+  --color-off-white: #f8fafc;
+  --color-purple: #4c1d6a;
+  --color-purple-deep: #3b1554;
+  --color-purple-soft: #6b3a8c;
+  --color-purple-muted: #f3eef8;
+  --color-blue: #7eb8d4;
+  --color-blue-soft: #e8f4fb;
+  --color-blue-deep: #3d8fb0;
+  --color-gold: #c9a227;
+  --color-gold-soft: #f7efd6;
+  --color-gold-deep: #a6851a;
+  --color-ink: #1a1523;
+  --color-ink-muted: #5c5666;
+  --color-border: #e8e4ee;
+
+  --background: var(--color-white);
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--color-purple);
+  --color-brand-deep: var(--color-purple-deep);
+  --color-brand-soft: var(--color-purple-soft);
+  --color-brand-muted: var(--color-purple-muted);
+  --color-sky: var(--color-blue);
+  --color-sky-soft: var(--color-blue-soft);
+  --color-sky-deep: var(--color-blue-deep);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+  --color-gold-deep: var(--color-gold-deep);
+  --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
+  --color-border: var(--color-border);
+  --color-off-white: var(--color-off-white);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Avoid horizontal rubber-band scroll on mobile */
+  overflow-x: clip;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  overflow-x: clip;
+  /* Comfortable tap targets on touch devices */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Safe-area padding for notched phones (modals / sticky UI) */
+.safe-pb {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+/* Display headings */
+.font-display {
+  font-family: var(--font-playfair), Georgia, "Times New Roman", serif;
+}
+
+/* Gold underline accent for section titles */
+.gold-underline {
+  position: relative;
+  display: inline-block;
+}
+.gold-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.5rem;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-deep));
+}
+.gold-underline-left::after {
+  left: 0;
+  transform: none;
+}
+
+/* Subtle card lift */
+.card-lift {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 28px -12px rgb(76 29 106 / 0.2),
+    0 4px 8px -4px rgb(76 29 106 / 0.08);
+}
+
+/* Focus ring for a11y */
+:focus-visible {
+  outline: 2px solid var(--color-purple);
+  outline-offset: 2px;
+}
+
+/* Lazy-friendly YouTube aspect */
+.aspect-video-yt {
+  aspect-ratio: 16 / 9;
+}
