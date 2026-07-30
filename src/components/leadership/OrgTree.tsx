@@ -139,7 +139,7 @@ function CouplePortrait({
         <img
           src={leader.photoURL}
           alt={headlineName(leader)}
-          className="h-full w-full object-cover object-top"
+          className="h-full w-full object-cover object-center"
           loading="lazy"
         />
       </div>
@@ -158,14 +158,14 @@ function CouplePortrait({
         <img
           src={leader.photoURL}
           alt={leader.name}
-          className="h-full w-full rounded-lg object-cover object-top"
+          className="h-full w-full rounded-lg object-cover object-center"
           loading="lazy"
         />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={leader.spousePhotoURL}
           alt={leader.spouseName ?? "Spouse"}
-          className="h-full w-full rounded-lg object-cover object-top"
+          className="h-full w-full rounded-lg object-cover object-center"
           loading="lazy"
         />
       </div>

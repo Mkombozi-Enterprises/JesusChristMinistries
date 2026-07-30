@@ -45,10 +45,10 @@ export const REGIONS: Region[] = [
   {
     id: "meru",
     name: "Meru",
-    overseerName: "Rev. Rotich and Mrs. Stellar Kamama",
+    overseerName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     overseerPhotoURL: "/images/leadership/meru-rotich-stellar.jpg",
     description:
-      "Bringing hope and the Word of God to Meru and beyond, led by Rev. Rotich and Mrs. Stellar Kamama.",
+      "Bringing hope and the Word of God to Meru and beyond, led by Rev. Charlse Koech and Mrs. Caroline Cheropkoech.",
   },
   {
     id: "kilifi",
@@ -110,13 +110,13 @@ const OVERSEER_BY_REGION: Partial<
   >
 > = {
   meru: {
-    name: "Rev. Rotich",
-    displayName: "Rev. Rotich and Mrs. Stellar Kamama",
+    name: "Rev. Charlse Koech",
+    displayName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     title: "Overseer",
-    spouseName: "Mrs. Stellar Kamama",
+    spouseName: "Mrs. Caroline Cheropkoech",
     // Joint couple photo
     photoURL: MERU_OVERSEERS_PHOTO,
-    bio: "Rev. Rotich and Mrs. Stellar Kamama serve as Regional Overseers for Meru Region, shepherding branch pastors and advancing ministry in Meru and surrounding communities.",
+    bio: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech serve as Regional Overseers for Meru Region, shepherding branch pastors and advancing ministry in Meru and surrounding communities.",
   },
   "north-rift": {
     name: "Regional Overseers [To Confirm]",
@@ -201,16 +201,16 @@ export const NATIONAL_LEADERSHIP: Leader[] = [
   },
   {
     id: "ministry-coordinator",
-    name: "Ronald Ngala Chiwai",
+    name: "Ev. Ronald Chiwai",
     title: "Ministry Coordinator",
     band: "national_cabinet",
     level: 1,
     sortOrder: 1,
     photoURL: RONALD_CHIWAI_PHOTO,
     spousePhotoURL: RONALD_CHIWAI_SPOUSE_PHOTO,
-    spouseName: "Mrs. Chiwai",
-    displayName: "Ronald Ngala Chiwai and Mrs. Chiwai",
-    bio: "Ronald Ngala Chiwai serves as Ministry Coordinator for Jesus Christ Ministries, aligning national programmes and departments under the Bishop’s vision.",
+    spouseName: "Mrs. Emmaculate Chiwai",
+    displayName: "Ev. Ronald and Mrs. Emmaculate Chiwai",
+    bio: "Ev. Ronald and Mrs. Emmaculate Chiwai serve Jesus Christ Ministries as Ministry Coordinator, aligning national programmes and departments under the Bishop's vision.",
   },
   {
     id: "treasurer-national",
