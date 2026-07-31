@@ -53,11 +53,11 @@ export const REGIONS: Region[] = [
   {
     id: "kilifi",
     name: "Kilifi",
-    overseerName: "Mr. and Mrs. Rev. Chai Festus",
+    overseerName: "Rev. Chai Festus and Pastor Daisy Bahati",
     overseerPhotoURL: "/images/leadership/rev-chai-festus.jpg",
     overseerSpousePhotoURL: "/images/leadership/rev-chai-spouse.jpg",
     description:
-      "Coastal region ministry rooted in Pentecostal faith, led by Regional Overseers Mr. and Mrs. Rev. Chai Festus (who also serve as Assistant Bishop nationally).",
+      "Coastal region ministry rooted in Pentecostal faith, led by Regional Overseers Rev. Chai Festus and Pastor Daisy Bahati (who also serve as Assistant Bishop nationally).",
   },
   {
     id: "malindi",
@@ -147,13 +147,13 @@ const OVERSEER_BY_REGION: Partial<
   },
   kilifi: {
     name: "Rev. Chai Festus",
-    displayName: "Mr. and Mrs. Rev. Chai Festus",
+    displayName: "Rev. Chai Festus and Pastor Daisy Bahati",
     // Regional seat — card label comes from band "regional_overseer"
     title: "Overseer",
-    spouseName: "Mrs. Chai",
+    spouseName: "Pastor Daisy Bahati",
     photoURL: REV_CHAI_PHOTO,
     spousePhotoURL: REV_CHAI_SPOUSE_PHOTO,
-    bio: "Mr. and Mrs. Rev. Chai Festus serve as Regional Overseers for Kilifi Region and also as Assistant Bishop at national level, shepherding branch pastors and advancing Spirit-filled ministry along the coast.",
+    bio: "Rev. Chai Festus and Pastor Daisy Bahati serve as Regional Overseers for Kilifi Region and also as Assistant Bishop at national level, shepherding branch pastors and advancing Spirit-filled ministry along the coast.",
   },
   malindi: {
     name: "Reverend Katana",
@@ -215,12 +215,13 @@ export const NATIONAL_LEADERSHIP: Leader[] = [
   },
   {
     id: "treasurer-national",
-    name: "Treasurer [To Confirm]",
+    name: "Pastor Nelson Mneria",
     title: "Treasurer",
     band: "national_cabinet",
     level: 1,
     sortOrder: 2,
-    bio: "National Treasurer — stewards ministry finances with integrity. Placeholder pending appointment details.",
+    photoURL: "/images/leadership/pastor-nelson-mneria.jpg",
+    bio: "Pastor Nelson Mneria serves as National Treasurer for Jesus Christ Ministries, stewarding ministry finances with integrity.",
   },
   {
     id: "national-women",
@@ -251,30 +252,32 @@ export const NATIONAL_LEADERSHIP: Leader[] = [
   },
   {
     id: "welfare-chairman",
-    name: "Chairman [To Confirm]",
+    name: "Rev. Charlse Koech",
     title: "Chairman",
     band: "pastors_welfare",
     level: 1,
     sortOrder: 0,
-    bio: "Chairman of the Pastors Welfare committee.",
+    photoURL: "/images/leadership/rev-charlse-koech.jpg",
+    bio: "Rev. Charlse Koech serves as Chairman of the Pastors Welfare committee.",
   },
   {
     id: "welfare-secretary",
-    name: "Secretary [To Confirm]",
+    name: "Rev. Amon Adiema",
     title: "Secretary",
     band: "pastors_welfare",
     level: 1,
     sortOrder: 1,
-    bio: "Secretary of the Pastors Welfare committee.",
+    bio: "Rev. Amon Adiema serves as Secretary of the Pastors Welfare committee.",
   },
   {
     id: "welfare-treasurer",
-    name: "Treasurer [To Confirm]",
+    name: "Rev. Thompson Katana",
     title: "Treasurer",
     band: "pastors_welfare",
     level: 1,
     sortOrder: 2,
-    bio: "Treasurer of the Pastors Welfare committee.",
+    photoURL: "/images/leadership/rev-thompson-katana.jpg",
+    bio: "Rev. Thompson Katana serves as Treasurer of the Pastors Welfare committee.",
   },
 ];
 
