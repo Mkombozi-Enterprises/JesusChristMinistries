@@ -28,10 +28,10 @@ export const REGIONS: Region[] = [
   {
     id: "north-rift",
     name: "North Rift",
-    overseerName: "Regional Overseers [To Confirm]",
+    overseerName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     overseerPhotoURL: "/images/leadership/north-rift-overseers.jpg",
     description:
-      "A growing network of branches across the North Rift region.",
+      "Reaching communities across the North Rift region, led by Rev. Charlse Koech and Mrs. Caroline Cheropkoech.",
   },
   {
     id: "kilgoris",
@@ -45,10 +45,10 @@ export const REGIONS: Region[] = [
   {
     id: "meru",
     name: "Meru",
-    overseerName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
+    overseerName: "Rev. Rotich Kamama and Mrs. Stellar Kamama",
     overseerPhotoURL: "/images/leadership/meru-rotich-stellar.jpg",
     description:
-      "Bringing hope and the Word of God to Meru and beyond, led by Rev. Charlse Koech and Mrs. Caroline Cheropkoech.",
+      "Bringing hope and the Word of God to Meru and beyond, led by Rev. Rotich Kamama and Mrs. Stellar Kamama.",
   },
   {
     id: "kilifi",
@@ -110,21 +110,22 @@ const OVERSEER_BY_REGION: Partial<
   >
 > = {
   meru: {
+    name: "Rev. Rotich Kamama",
+    displayName: "Rev. Rotich Kamama and Mrs. Stellar Kamama",
+    title: "Overseer",
+    spouseName: "Mrs. Stellar Kamama",
+    // Joint couple photo
+    photoURL: MERU_OVERSEERS_PHOTO,
+    bio: "Rev. Rotich Kamama and Mrs. Stellar Kamama serve as Regional Overseers for Meru Region, shepherding branch pastors and advancing ministry in Meru and surrounding communities.",
+  },
+  "north-rift": {
     name: "Rev. Charlse Koech",
     displayName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     title: "Overseer",
     spouseName: "Mrs. Caroline Cheropkoech",
-    // Joint couple photo
-    photoURL: MERU_OVERSEERS_PHOTO,
-    bio: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech serve as Regional Overseers for Meru Region, shepherding branch pastors and advancing ministry in Meru and surrounding communities.",
-  },
-  "north-rift": {
-    name: "Regional Overseers [To Confirm]",
-    displayName: "North Rift Regional Overseers",
-    title: "Overseer",
     // Joint couple photo (single image)
     photoURL: NORTH_RIFT_PHOTO,
-    bio: "Regional Overseers for North Rift Region, overseeing branch pastors and ministry growth across the North Rift. Names to be confirmed.",
+    bio: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech serve as Regional Overseers for North Rift Region, shepherding branch pastors and advancing ministry across the North Rift.",
   },
   western: {
     name: "Reverend Hudson Musamusi",
