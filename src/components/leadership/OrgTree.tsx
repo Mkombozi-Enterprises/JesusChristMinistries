@@ -137,6 +137,7 @@ function CouplePortrait({
             leader.displayName?.includes("Overseers"),
         ) ||
         leader.regionId === "meru" ||
+        leader.regionId === "central-rift" ||
         leader.regionId === "north-rift");
 
     const frameClass = isJointSinglePhoto

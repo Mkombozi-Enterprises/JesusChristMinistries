@@ -26,12 +26,12 @@ export const REGIONS: Region[] = [
       "Reaching communities across Western Kenya with the Gospel of Jesus Christ, led by Rev. Hudson Musamusi and Mrs. Everlyne Kisanya.",
   },
   {
-    id: "north-rift",
-    name: "North Rift",
+    id: "central-rift",
+    name: "Central Rift Valley",
     overseerName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     overseerPhotoURL: "/images/leadership/north-rift-overseers.jpg",
     description:
-      "Reaching communities across the North Rift region, led by Rev. Charlse Koech and Mrs. Caroline Cheropkoech.",
+      "Reaching communities across the Central Rift Valley region, led by Rev. Charlse Koech and Mrs. Caroline Cheropkoech.",
   },
   {
     id: "kilgoris",
@@ -80,8 +80,9 @@ export const MRS_HUDSON_PHOTO =
 export const REV_SONKOK_PHOTO = "/images/leadership/rev-thomas-sonkok.jpg";
 export const MRS_SONKOK_PHOTO = "/images/leadership/mrs-sonkok.jpg";
 export const REV_KATANA_PHOTO = "/images/leadership/rev-katana.jpg";
-export const NORTH_RIFT_PHOTO =
+export const CENTRAL_RIFT_PHOTO =
   "/images/leadership/north-rift-overseers.jpg";
+export const NORTH_RIFT_PHOTO = CENTRAL_RIFT_PHOTO;
 export const RONALD_CHIWAI_PHOTO =
   "/images/leadership/ronald-ngala-chiwai.jpg";
 export const RONALD_CHIWAI_SPOUSE_PHOTO =
@@ -118,14 +119,14 @@ const OVERSEER_BY_REGION: Partial<
     photoURL: MERU_OVERSEERS_PHOTO,
     bio: "Rev. Rotich Kamama and Mrs. Stellar Kamama serve as Regional Overseers for Meru Region, shepherding branch pastors and advancing ministry in Meru and surrounding communities.",
   },
-  "north-rift": {
+  "central-rift": {
     name: "Rev. Charlse Koech",
     displayName: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech",
     title: "Overseer",
     spouseName: "Mrs. Caroline Cheropkoech",
     // Joint couple photo (single image)
-    photoURL: NORTH_RIFT_PHOTO,
-    bio: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech serve as Regional Overseers for North Rift Region, shepherding branch pastors and advancing ministry across the North Rift.",
+    photoURL: CENTRAL_RIFT_PHOTO,
+    bio: "Rev. Charlse Koech and Mrs. Caroline Cheropkoech serve as Regional Overseers for Central Rift Valley Region, shepherding branch pastors and advancing ministry across Central Rift Valley.",
   },
   western: {
     name: "Reverend Hudson Musamusi",
@@ -347,10 +348,10 @@ export const BRANCHES: Branch[] = [
     isMainCampus: false,
   },
   {
-    id: "north-rift-nakuru",
+    id: "central-rift-nakuru",
     name: "Nakuru Branch",
-    regionId: "north-rift",
-    address: "Nakuru, North Rift",
+    regionId: "central-rift",
+    address: "Nakuru, Central Rift Valley",
     serviceTimes: [
       { day: "Sunday", time: "10:00 AM", label: "Main Service" },
     ],
