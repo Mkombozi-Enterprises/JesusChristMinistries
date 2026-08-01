@@ -62,10 +62,11 @@ export const REGIONS: Region[] = [
   {
     id: "malindi",
     name: "Malindi",
-    overseerName: "Reverend Katana",
+    overseerName: "Reverend Thompson and Mrs Anne Katana",
     overseerPhotoURL: "/images/leadership/rev-katana.jpg",
+    overseerSpousePhotoURL: "/images/leadership/mrs-anne-katana.jpg",
     description:
-      "Serving Malindi and coastal communities with love and power, led by Rev. Katana.",
+      "Serving Malindi and coastal communities with love and power, led by Reverend Thompson and Mrs Anne Katana.",
   },
 ];
 
@@ -80,6 +81,8 @@ export const MRS_HUDSON_PHOTO =
 export const REV_SONKOK_PHOTO = "/images/leadership/rev-thomas-sonkok.jpg";
 export const MRS_SONKOK_PHOTO = "/images/leadership/mrs-sonkok.jpg";
 export const REV_KATANA_PHOTO = "/images/leadership/rev-katana.jpg";
+export const MRS_ANNE_KATANA_PHOTO =
+  "/images/leadership/mrs-anne-katana.jpg";
 export const CENTRAL_RIFT_PHOTO =
   "/images/leadership/north-rift-overseers.jpg";
 export const NORTH_RIFT_PHOTO = CENTRAL_RIFT_PHOTO;
@@ -157,10 +160,13 @@ const OVERSEER_BY_REGION: Partial<
     bio: "Rev. Chai Festus and Pastor Daisy Bahati serve as Regional Overseers for Kilifi Region and also as Assistant Bishop at national level, shepherding branch pastors and advancing Spirit-filled ministry along the coast.",
   },
   malindi: {
-    name: "Reverend Katana",
+    name: "Reverend Thompson Katana",
+    displayName: "Reverend Thompson and Mrs Anne Katana",
     title: "Overseer",
+    spouseName: "Mrs Anne Katana",
     photoURL: REV_KATANA_PHOTO,
-    bio: "Reverend Katana serves as Regional Overseer for Malindi Region, overseeing branch pastors and ministry growth along the coast.",
+    spousePhotoURL: MRS_ANNE_KATANA_PHOTO,
+    bio: "Reverend Thompson and Mrs Anne Katana serve as Regional Overseers for Malindi Region, overseeing branch pastors and ministry growth along the coast.",
   },
 };
 
