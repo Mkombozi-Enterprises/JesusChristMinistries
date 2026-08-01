@@ -129,16 +129,15 @@ function CouplePortrait({
 
   if (leader.photoURL && !leader.spousePhotoURL) {
     const isJointSinglePhoto =
-      leader.id !== "bishop" &&
-      (Boolean(leader.spouseName) ||
-        Boolean(
-          leader.displayName?.includes(" and ") ||
-            leader.displayName?.includes("&") ||
-            leader.displayName?.includes("Overseers"),
-        ) ||
-        leader.regionId === "meru" ||
-        leader.regionId === "central-rift" ||
-        leader.regionId === "north-rift");
+      Boolean(leader.spouseName) ||
+      Boolean(
+        leader.displayName?.includes(" and ") ||
+          leader.displayName?.includes("&") ||
+          leader.displayName?.includes("Overseers"),
+      ) ||
+      leader.regionId === "meru" ||
+      leader.regionId === "central-rift" ||
+      leader.regionId === "north-rift";
 
     const frameClass = isJointSinglePhoto
       ? coupleFrames[size]
@@ -155,7 +154,7 @@ function CouplePortrait({
         <img
           src={leader.photoURL}
           alt={headlineName(leader)}
-          className="h-full w-full object-cover object-center"
+          className="h-full w-full object-cover object-top"
           loading="lazy"
         />
       </div>
